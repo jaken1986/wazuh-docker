@@ -54,9 +54,9 @@ sleep 2
 >&2 echo "Wazuh alerts template is loaded."
 
 
-./wazuh_app_config.sh
+# ./wazuh_app_config.sh
 
-sleep 5
+# sleep 5
 
 ./kibana_settings.sh &
 
